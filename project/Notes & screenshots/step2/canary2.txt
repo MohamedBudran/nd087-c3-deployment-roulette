@@ -1,0 +1,17 @@
+PS E:\aws\aws2\nd087-c3-deployment-roulette> kubectl get pods --all-namespaces
+NAMESPACE     NAME                           READY   STATUS    RESTARTS   AGE
+kube-system   aws-node-bbccg                 1/1     Running   0          52m
+kube-system   aws-node-cjr2b                 1/1     Running   0          52m
+kube-system   coredns-5db97b446d-d67zf       1/1     Running   0          57m
+kube-system   coredns-5db97b446d-pwvbr       1/1     Running   0          57m
+kube-system   kube-proxy-4jphs               1/1     Running   0          52m
+kube-system   kube-proxy-sjfwg               1/1     Running   0          52m
+udacity       canary-v1-64598c676f-2mjh7     1/1     Running   0          3m30s
+udacity       canary-v1-64598c676f-45ps2     1/1     Running   0          3m30s
+udacity       canary-v1-64598c676f-gw5vn     1/1     Running   0          3m30s
+udacity       canary-v1-64598c676f-tq4sg     1/1     Running   0          3m30s
+udacity       canary-v2-5dc9c56687-9srg6     1/1     Running   0          22s
+udacity       canary-v2-5dc9c56687-c5dzf     1/1     Running   0          22s
+udacity       canary-v2-5dc9c56687-h57vt     1/1     Running   0          55s
+udacity       canary-v2-5dc9c56687-j468h     1/1     Running   0          55s
+udacity       hello-world-794458d64d-chfc5   1/1     Running   0          47m
