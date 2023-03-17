@@ -1,0 +1,29 @@
+bedro@DESKTOP-IS3R68S MINGW64 /e/aws/aws2/nd087-c3-deployment-roulette/project/apps/bloatware (main)
+$ kubectl get pods --all-namespaces
+NAMESPACE     NAME                                  READY   STATUS    RESTARTS   AGE
+kube-system   aws-node-2n4gs                        1/1     Running   0          2m9s
+kube-system   aws-node-8sg9p                        1/1     Running   0          146m
+kube-system   aws-node-kh4gv                        1/1     Running   0          146m
+kube-system   cluster-autoscaler-5764fd67cd-wtmqf   1/1     Running   0          24m
+kube-system   coredns-5db97b446d-7nqsg              1/1     Running   0          150m
+kube-system   coredns-5db97b446d-pfqj9              1/1     Running   0          150m
+kube-system   kube-proxy-dj58z                      1/1     Running   0          2m9s
+kube-system   kube-proxy-rb6dc                      1/1     Running   0          146m
+kube-system   kube-proxy-zrp9k                      1/1     Running   0          146m
+udacity       bloaty-mcbloatface-58c98b98d8-284pg   1/1     Running   0          23m
+udacity       bloaty-mcbloatface-58c98b98d8-857wq   1/1     Running   0          23m
+udacity       bloaty-mcbloatface-58c98b98d8-8j96n   1/1     Running   0          23m
+udacity       bloaty-mcbloatface-58c98b98d8-8v4p2   1/1     Running   0          23m
+udacity       bloaty-mcbloatface-58c98b98d8-bt2l7   1/1     Running   0          23m
+udacity       bloaty-mcbloatface-58c98b98d8-bwd9x   1/1     Running   0          23m
+udacity       bloaty-mcbloatface-58c98b98d8-bwz9w   1/1     Running   0          23m
+udacity       bloaty-mcbloatface-58c98b98d8-f2t22   1/1     Running   0          23m
+udacity       bloaty-mcbloatface-58c98b98d8-fk4g9   1/1     Running   0          23m
+udacity       bloaty-mcbloatface-58c98b98d8-jm6mk   1/1     Running   0          23m
+udacity       bloaty-mcbloatface-58c98b98d8-nh6mg   1/1     Running   0          23m
+udacity       bloaty-mcbloatface-58c98b98d8-qbtpl   1/1     Running   0          23m
+udacity       bloaty-mcbloatface-58c98b98d8-qfmqm   1/1     Running   0          23m
+udacity       bloaty-mcbloatface-58c98b98d8-vhxwq   1/1     Running   0          23m
+udacity       bloaty-mcbloatface-58c98b98d8-wtm2s   1/1     Running   0          23m
+udacity       bloaty-mcbloatface-58c98b98d8-xh9x4   1/1     Running   0          23m
+udacity       bloaty-mcbloatface-58c98b98d8-zmqfz   1/1     Running   0          23m
